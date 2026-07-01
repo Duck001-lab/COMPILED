@@ -1,0 +1,68 @@
+=== GOOGLE PLAY CONSOLE — COPY/PASTE ===
+
+Package: com.cloudfire.vpn
+App name: CloudFire VPN
+Category: Tools
+
+--- Short description (RU, 80 chars) ---
+Быстрый VPN с пробным доступом. Шифрование трафика, выбор серверов.
+
+--- Short description (EN) ---
+Fast VPN with free trial. Encrypted tunnel, multiple server locations.
+
+--- Full description (RU) ---
+CloudFire VPN — защищённое VPN-подключение с шифрованием трафика до сервера.
+
+• Пробный доступ перед регистрацией
+• Выбор серверов
+• Авторизация через Telegram
+• Подписка оформляется в Telegram-боте (вне приложения)
+
+Приложение использует Android VpnService. Трафик шифруется до точки подключения VPN.
+Содержимое трафика других приложений не собирается и не продаётся.
+
+Поддержка: @CloudFireSupportBot
+Email: duck001@tatanota.de
+
+--- Full description (EN) ---
+CloudFire VPN provides an encrypted VPN connection using Android VpnService.
+
+• Trial access before sign-in
+• Server selection
+• Sign in via Telegram
+• Subscription via Telegram bot (outside the app)
+
+We do not collect or sell traffic contents from other apps.
+
+Support: @CloudFireSupportBot
+Email: duck001@tatanota.de
+
+--- Privacy policy URL ---
+https://raw.githubusercontent.com/Duck001-lab/COMPILED/main/privacy-policy.html
+
+--- Developer contact email (Play Console) ---
+duck001@tatanota.de
+
+=== VPN SERVICE DECLARATION ===
+Core functionality is VPN: YES
+Collects personal/sensitive data: YES (device ID, Telegram username, connection metadata via our API — NOT contents of other apps' traffic)
+Redirect/manipulate traffic for monetization: NO
+Video: (your YouTube unlisted link — show VPN consent screen → Accept → VPN connects)
+
+=== DATA SAFETY ===
+Personal info → User IDs: Collected (Telegram username)
+Device or other IDs → Device ID: Collected (trial)
+App info and performance: Collected (VPN/server status, diagnostics)
+Web browsing / App activity of other apps: NOT collected
+Encrypted in transit: YES
+Users can request deletion: YES (@CloudFireSupportBot, duck001@tatanota.de)
+Ads: NO
+
+=== QUERY_ALL_PACKAGES ===
+Split-tunnel feature: user excludes apps from VPN tunnel. App reads installed package list to apply compatibility mode for banking/local apps. Not used for ads or data resale.
+
+=== FOREGROUND SERVICE ===
+specialUse subtype: vpn
+
+=== UPLOAD FILE ===
+CloudFireVPN/compiled-release/CloudFireVPN-play-release.aab

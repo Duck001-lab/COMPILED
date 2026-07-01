@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CloudFire VPN — Политика конфиденциальности</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #111; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.5rem; }
+  </style>
+</head>
+<body>
+  <h1>Политика конфиденциальности CloudFire VPN</h1>
+  <p><strong>Оператор:</strong> CloudFire VPN (Duck001-lab)</p>
+  <p><strong>Дата обновления:</strong> 1 июля 2026</p>
+
+  <h2>1. Общие положения</h2>
+  <p>
+    CloudFire VPN («Приложение») предоставляет защищённое VPN-подключение через Android VpnService.
+    Используя Приложение, вы соглашаетесь с настоящей политикой.
+  </p>
+
+  <h2>2. Какие данные мы обрабатываем</h2>
+  <ul>
+    <li><strong>Идентификатор устройства</strong> — случайный UUID в приложении; для пробного доступа до входа и привязки trial к аккаунту.</li>
+    <li><strong>Данные Telegram</strong> — username и токен авторизации при входе через бота.</li>
+    <li><strong>Технические данные</strong> — выбранный сервер, статус подписки, параметры VPN-подключения.</li>
+    <li><strong>Трафик VPN</strong> — проходит через зашифрованный туннель до нашего сервера. Содержимое трафика других приложений <strong>не собирается и не анализируется</strong> для рекламы или продажи.</li>
+  </ul>
+  <p>
+    В версии из Google Play оплата подписки выполняется <strong>вне приложения</strong> — в Telegram-боте.
+    Приложение отображает статус подписки после синхронизации с сервером.
+  </p>
+
+  <h2>3. Цели обработки</h2>
+  <ul>
+    <li>Предоставление VPN-сервиса и управление подпиской.</li>
+    <li>Авторизация и поддержка пользователей.</li>
+    <li>Обеспечение безопасности и стабильности сервиса.</li>
+  </ul>
+
+  <h2>4. Передача третьим лицам</h2>
+  <p>
+    Мы не продаём персональные данные. Данные обрабатываются на наших серверах
+    и у инфраструктурных провайдеров, необходимых для работы сервиса.
+  </p>
+
+  <h2>5. Хранение и удаление аккаунта</h2>
+  <p>
+    Данные хранятся, пока действует аккаунт или требуется для оказания услуги.
+    Вы можете запросить удаление аккаунта и связанных данных:
+  </p>
+  <ul>
+    <li>Telegram: <a href="https://t.me/CloudFireSupportBot">@CloudFireSupportBot</a></li>
+    <li>Email: <a href="mailto:duck001@tatanota.de">duck001@tatanota.de</a></li>
+  </ul>
+  <p>Запрос обрабатывается в разумный срок (обычно до 30 дней).</p>
+
+  <h2>6. Разрешения Android</h2>
+  <p>
+    <strong>VpnService</strong> — создание защищённого VPN-туннеля (основная функция приложения).<br>
+    <strong>Уведомления</strong> — статус VPN в фоне.<br>
+    <strong>Список приложений (QUERY_ALL_PACKAGES)</strong> — только для split-tunnel: исключение выбранных приложений из VPN (совместимость с банками и локальными сервисами).
+  </p>
+
+  <h2>7. Контакты</h2>
+  <p>
+    Telegram: <a href="https://t.me/CloudFireSupportBot">@CloudFireSupportBot</a><br>
+    Email: <a href="mailto:duck001@tatanota.de">duck001@tatanota.de</a>
+  </p>
+
+  <hr />
+  <h1 id="en">Privacy Policy (English)</h1>
+  <p>CloudFire VPN uses Android VpnService to provide an encrypted VPN tunnel. We collect a device identifier (for trial access), Telegram account data (for sign-in), and technical connection metadata. We do <strong>not</strong> collect or sell the contents of your traffic from other apps. Google Play version: subscription is purchased outside the app via our Telegram bot. Account deletion: contact @CloudFireSupportBot or duck001@tatanota.de.</p>
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "api": [
+    "https://31.220.45.19:8443/x7f9kq2/"
+  ],
+  "trial_duration_minutes": 60,
+  "trial_servers": [
+    "nl-1",
+    "de-1"
+  ],
+  "paid_servers": [
+    "nl-1",
+    "de-1",
+    "us-1"
+  ],
+  "config_refresh_minutes": 30,
+  "servers": [
+    {
+      "code": "nl-1",
+      "name": "Netherlands #1",
+      "country_code": "NL",
+      "city_name": "Amsterdam",
+      "host": "31.220.45.19",
+      "port": 443,
+      "api_base": "https://31.220.45.19:8443/x7f9kq2/",
+      "peer_servers": ["de-1", "us-1"]
+    },
+    {
+      "code": "de-1",
+      "name": "Germany #1",
+      "country_code": "DE",
+      "city_name": "Frankfurt",
+      "host": "31.220.45.19",
+      "port": 443,
+      "api_base": "https://31.220.45.19:8443/x7f9kq2/",
+      "peer_servers": ["nl-1", "us-1"]
+    },
+    {
+      "code": "us-1",
+      "name": "United States #1",
+      "country_code": "US",
+      "city_name": "New York",
+      "host": "31.220.45.19",
+      "port": 443,
+      "api_base": "https://31.220.45.19:8443/x7f9kq2/",
+      "peer_servers": ["nl-1", "de-1"]
+    }
+  ]
+}
