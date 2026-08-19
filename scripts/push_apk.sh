@@ -5,7 +5,7 @@ set -euo pipefail
 
 REPO_URL="https://github.com/Duck001-lab/COMPILED.git"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-APK_SRC="${APK_SRC:-$ROOT/../app/build/outputs/apk/release/CloudFireVPN.apk}"
+APK_SRC="${APK_SRC:-$ROOT/../CloudFireVPN_1.1.0/app/build/outputs/apk/sideload/release/app-sideload-release.apk}"
 
 if [[ ! -f "$APK_SRC" ]]; then
   echo "APK not found: $APK_SRC" >&2
