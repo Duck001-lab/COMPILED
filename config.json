@@ -1,0 +1,31 @@
+{
+  "api": [
+    "https://167.104.104.5:8443/x7f9kq2/"
+  ],
+  "trial_duration_minutes": 60,
+  "trial_servers": [
+    "se-1"
+  ],
+  "paid_servers": [
+    "se-1"
+  ],
+  "config_refresh_minutes": 30,
+  "server_aliases": {
+    "nl-1": "se-1",
+    "de-1": "se-1",
+    "us-1": "se-1",
+    "fr-1": "se-1"
+  },
+  "servers": [
+    {
+      "code": "se-1",
+      "name": "Sweden #1",
+      "country_code": "SE",
+      "city_name": "Stockholm",
+      "host": "167.104.104.5",
+      "port": 443,
+      "api_base": "https://167.104.104.5:8443/x7f9kq2/",
+      "peer_servers": []
+    }
+  ]
+}
