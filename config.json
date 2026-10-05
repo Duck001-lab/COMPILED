@@ -16,6 +16,13 @@
     "us-1": "se-1",
     "fr-1": "se-1"
   },
+  "app_update": {
+    "version_code": 200,
+    "version_name": "2.0",
+    "apk_url": "https://raw.githubusercontent.com/Duck001-lab/COMPILED/main/CloudFireVPN.apk",
+    "release_notes": "VLESS + Reality + xHTTP, один сервер se-1, автообновление из GitHub.",
+    "force": false
+  },
   "servers": [
     {
       "code": "se-1",
@@ -23,7 +30,7 @@
       "country_code": "SE",
       "city_name": "Stockholm",
       "host": "167.104.104.5",
-      "port": 443,
+      "port": 2053,
       "api_base": "https://167.104.104.5:8443/x7f9kq2/",
       "peer_servers": []
     }
