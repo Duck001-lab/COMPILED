@@ -18,9 +18,9 @@
   },
   "app_update": {
     "version_code": 201,
-    "version_name": "2.0.1",
+    "version_name": "2.0",
     "apk_url": "https://raw.githubusercontent.com/Duck001-lab/COMPILED/main/CloudFireVPN.apk",
-    "release_notes": "2.0.1: постепенный переход на xHTTP для новых сборок; старые клиенты остаются на Vision.",
+    "release_notes": "VLESS + Reality + xHTTP для новых сборок; старые клиенты остаются на Vision. Автообновление из GitHub.",
     "force": false
   },
   "servers": [
