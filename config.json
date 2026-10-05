@@ -17,10 +17,10 @@
     "fr-1": "se-1"
   },
   "app_update": {
-    "version_code": 201,
+    "version_code": 202,
     "version_name": "2.0",
     "apk_url": "https://raw.githubusercontent.com/Duck001-lab/COMPILED/main/CloudFireVPN.apk",
-    "release_notes": "VLESS + Reality + xHTTP для новых сборок; старые клиенты остаются на Vision. Автообновление из GitHub.",
+    "release_notes": "Цены тарифов с сервера. Исправлен автоконнект. Серверы без адреса недоступны для подключения.",
     "force": false
   },
   "servers": [
