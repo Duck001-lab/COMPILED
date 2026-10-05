@@ -30,8 +30,44 @@
       "country_code": "SE",
       "city_name": "Stockholm",
       "host": "167.104.104.5",
-      "port": 2053,
+      "port": 443,
       "api_base": "https://167.104.104.5:8443/x7f9kq2/",
+      "peer_servers": ["nl-1", "de-1", "us-1", "fr-1"]
+    },
+    {
+      "code": "nl-1",
+      "name": "Netherlands #1",
+      "country_code": "NL",
+      "city_name": "Amsterdam",
+      "host": "",
+      "port": 443,
+      "peer_servers": []
+    },
+    {
+      "code": "de-1",
+      "name": "Germany #1",
+      "country_code": "DE",
+      "city_name": "Frankfurt",
+      "host": "",
+      "port": 443,
+      "peer_servers": []
+    },
+    {
+      "code": "us-1",
+      "name": "USA #1",
+      "country_code": "US",
+      "city_name": "New York",
+      "host": "",
+      "port": 443,
+      "peer_servers": []
+    },
+    {
+      "code": "fr-1",
+      "name": "France #1",
+      "country_code": "FR",
+      "city_name": "Paris",
+      "host": "",
+      "port": 443,
       "peer_servers": []
     }
   ]
