@@ -17,10 +17,10 @@
     "fr-1": "se-1"
   },
   "app_update": {
-    "version_code": 205,
+    "version_code": 206,
     "version_name": "2.0",
     "apk_url": "https://raw.githubusercontent.com/Duck001-lab/COMPILED/main/CloudFireVPN.apk",
-    "release_notes": "Список серверов с GitHub — смена IP без ожидания API.",
+    "release_notes": "Список серверов с GitHub — быстрая смена IP при блокировках.",
     "force": false
   },
   "servers": [
