@@ -17,10 +17,10 @@
     "fr-1": "se-1"
   },
   "app_update": {
-    "version_code": 203,
+    "version_code": 204,
     "version_name": "2.0",
     "apk_url": "https://raw.githubusercontent.com/Duck001-lab/COMPILED/main/CloudFireVPN.apk",
-    "release_notes": "Неактивные серверы без нажатия. Свои уведомления CloudFire вместо технических.",
+    "release_notes": "Быстрый старт приложения без ожидания сети.",
     "force": false
   },
   "servers": [
