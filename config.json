@@ -17,10 +17,10 @@
     "fr-1": "se-1"
   },
   "app_update": {
-    "version_code": 211,
-    "version_name": "2.1.1",
+    "version_code": 220,
+    "version_name": "2.2",
     "apk_url": "https://raw.githubusercontent.com/Duck001-lab/COMPILED/main/CloudFireVPN.apk",
-    "release_notes": "CloudFire VPN 2.1.1: исправлены иконки в статус-баре и на рабочем столе — логотип больше не обрезается.",
+    "release_notes": "Встречайте CloudFire VPN 2.2: русский и English с автоопределением, спокойнее статусы VPN и удобнее настройки.",
     "force": false
   },
   "servers": [
