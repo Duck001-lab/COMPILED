@@ -17,10 +17,10 @@
     "fr-1": "se-1"
   },
   "app_update": {
-    "version_code": 206,
-    "version_name": "2.0",
+    "version_code": 210,
+    "version_name": "2.1",
     "apk_url": "https://raw.githubusercontent.com/Duck001-lab/COMPILED/main/CloudFireVPN.apk",
-    "release_notes": "Список серверов с GitHub — быстрая смена IP при блокировках.",
+    "release_notes": "CloudFire VPN 2.1: усиленная защита аккаунта, удобнее настройки, актуальные тарифы 200 / 550 / 1050 Stars. Обновите приложение — подключение станет спокойнее и надёжнее.",
     "force": false
   },
   "servers": [
