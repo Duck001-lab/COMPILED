@@ -1,0 +1,79 @@
+{
+  "api": [
+    "https://167.104.104.5:8443/x7f9kq2/"
+  ],
+  "trial_duration_minutes": 60,
+  "trial_servers": [
+    "se-1"
+  ],
+  "paid_servers": [
+    "se-1"
+  ],
+  "config_refresh_minutes": 30,
+  "server_aliases": {
+    "nl-1": "se-1",
+    "de-1": "se-1",
+    "us-1": "se-1",
+    "fr-1": "se-1"
+  },
+  "app_update": {
+    "version_code": 220,
+    "version_name": "2.2",
+    "apk_url": "https://raw.githubusercontent.com/Duck001-lab/COMPILED/main/CloudFireVPN.apk",
+    "release_notes": "Встречайте CloudFire VPN 2.2: русский и English с автоопределением, спокойнее статусы VPN и удобнее настройки.",
+    "force": false
+  },
+  "servers": [
+    {
+      "code": "se-1",
+      "name": "Sweden #1",
+      "country_code": "SE",
+      "city_name": "Stockholm",
+      "host": "167.104.104.5",
+      "port": 443,
+      "api_base": "https://167.104.104.5:8443/x7f9kq2/",
+      "peer_servers": [
+        "nl-1",
+        "de-1",
+        "us-1",
+        "fr-1"
+      ]
+    },
+    {
+      "code": "nl-1",
+      "name": "Netherlands #1",
+      "country_code": "NL",
+      "city_name": "Amsterdam",
+      "host": "",
+      "port": 443,
+      "peer_servers": []
+    },
+    {
+      "code": "de-1",
+      "name": "Germany #1",
+      "country_code": "DE",
+      "city_name": "Frankfurt",
+      "host": "",
+      "port": 443,
+      "peer_servers": []
+    },
+    {
+      "code": "us-1",
+      "name": "USA #1",
+      "country_code": "US",
+      "city_name": "New York",
+      "host": "",
+      "port": 443,
+      "peer_servers": []
+    },
+    {
+      "code": "fr-1",
+      "name": "France #1",
+      "country_code": "FR",
+      "city_name": "Paris",
+      "host": "",
+      "port": 443,
+      "peer_servers": []
+    }
+  ]
+}
