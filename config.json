@@ -17,10 +17,10 @@
     "fr-1": "se-1"
   },
   "app_update": {
-    "version_code": 220,
-    "version_name": "2.2",
+    "version_code": 230,
+    "version_name": "2.3",
     "apk_url": "https://raw.githubusercontent.com/Duck001-lab/COMPILED/main/CloudFireVPN.apk",
-    "release_notes": "Встречайте CloudFire VPN 2.2: русский и English с автоопределением, спокойнее статусы VPN и удобнее настройки.",
+    "release_notes": "CloudFire VPN 2.3: если интернет ограничен или сервис временно недоступен, приложение честно сообщит о проблеме со связью — без путаницы с тарифом.",
     "force": false
   },
   "servers": [
