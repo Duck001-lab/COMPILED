@@ -1,23 +1,16 @@
 {
   "api": [
-    "https://167.254.241.141:8443/x7f9kq2/"
+    "https://167.104.163.151.sslip.io/x7f9kq2/"
   ],
   "trial_duration_minutes": 60,
   "trial_servers": [
-    "sg-1",
-    "se-1"
+    "sg-1"
   ],
   "paid_servers": [
-    "sg-1",
-    "se-1"
+    "sg-1"
   ],
   "config_refresh_minutes": 5,
-  "server_aliases": {
-    "nl-1": "sg-1",
-    "de-1": "sg-1",
-    "us-1": "sg-1",
-    "fr-1": "sg-1"
-  },
+  "server_aliases": {},
   "app_update": {
     "version_code": 2600,
     "version_name": "2.6",
@@ -33,31 +26,7 @@
       "city_name": "Singapore",
       "host": "167.254.241.141",
       "port": 443,
-      "api_base": "https://167.254.241.141:8443/x7f9kq2/",
-      "peer_servers": []
-    },
-    {
-      "code": "se-1",
-      "name": "Sweden",
-      "country_code": "SE",
-      "city_name": "Stockholm",
-      "host": "167.104.104.5",
-      "port": 443,
-      "api_base": "https://167.254.241.141:8443/x7f9kq2/",
-      "peer_servers": [
-        "nl-1",
-        "de-1",
-        "us-1",
-        "fr-1"
-      ]
-    },
-    {
-      "code": "nl-1",
-      "name": "Netherlands",
-      "country_code": "NL",
-      "city_name": "Amsterdam",
-      "host": "",
-      "port": 443,
+      "api_base": "https://167.104.163.151.sslip.io/x7f9kq2/",
       "peer_servers": []
     }
   ]
