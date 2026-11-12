@@ -12,10 +12,10 @@
   "config_refresh_minutes": 1,
   "server_aliases": {},
   "app_update": {
-    "version_code": 2601,
-    "version_name": "2.6.1",
+    "version_code": 2700,
+    "version_name": "2.7",
     "apk_url": "https://167.254.241.141:8443/download/CloudFireVPN.apk",
-    "release_notes": "Trusted Let's Encrypt cert on IP:8443",
+    "release_notes": "CloudFire VPN 2.7 — только xHTTP Reality, без Vision/tcp. Исправлен дубль названия на вкладке серверов.",
     "force": true
   },
   "servers": [
@@ -23,7 +23,7 @@
       "code": "sg-1",
       "name": "Singapore",
       "country_code": "SG",
-      "city_name": "Singapore",
+      "city_name": "",
       "host": "167.254.241.141",
       "port": 443,
       "api_base": "https://167.254.241.141:8443/x7f9kq2/",
