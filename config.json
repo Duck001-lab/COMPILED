@@ -15,7 +15,7 @@
     "version_code": 2700,
     "version_name": "2.7",
     "apk_url": "https://167.254.241.141:8443/download/CloudFireVPN.apk",
-    "release_notes": "CloudFire VPN 2.7 — только xHTTP Reality, без Vision/tcp. Исправлен дубль названия на вкладке серверов.",
+    "release_notes": "CloudFire VPN 2.7 — новое ядро соединения.\n\nТрафик выглядит как обычный HTTPS: стабильнее на LTE и в сетях с фильтрацией, быстрее вход, меньше обрывов.\n\nТарифы — чистый список без навязчивых рекомендаций. Обновление обязательное.",
     "force": true
   },
   "servers": [
