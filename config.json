@@ -1,6 +1,6 @@
 {
   "api": [
-    "https://167.254.241.141.sslip.io/x7f9kq2/"
+    "https://167.254.241.141:8443/x7f9kq2/"
   ],
   "trial_duration_minutes": 60,
   "trial_servers": [
@@ -14,8 +14,8 @@
   "app_update": {
     "version_code": 2601,
     "version_name": "2.6.1",
-    "apk_url": "https://167.254.241.141.sslip.io/download/CloudFireVPN.apk",
-    "release_notes": "API on 443 — fix connect / tariffs",
+    "apk_url": "https://167.254.241.141:8443/download/CloudFireVPN.apk",
+    "release_notes": "Trusted Let's Encrypt cert on IP:8443",
     "force": true
   },
   "servers": [
@@ -26,7 +26,7 @@
       "city_name": "Singapore",
       "host": "167.254.241.141",
       "port": 443,
-      "api_base": "https://167.254.241.141.sslip.io/x7f9kq2/",
+      "api_base": "https://167.254.241.141:8443/x7f9kq2/",
       "peer_servers": []
     }
   ]
