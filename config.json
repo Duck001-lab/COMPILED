@@ -7,7 +7,8 @@
     "sg-1"
   ],
   "paid_servers": [
-    "sg-1"
+    "sg-1",
+    "nl-1"
   ],
   "config_refresh_minutes": 1,
   "server_aliases": {},
@@ -27,6 +28,16 @@
       "host": "167.254.241.141",
       "port": 443,
       "api_base": "https://167.254.241.141:8443/x7f9kq2/",
+      "peer_servers": []
+    },
+    {
+      "code": "nl-1",
+      "name": "Netherlands",
+      "country_code": "NL",
+      "city_name": "Amsterdam",
+      "host": "167.104.163.152",
+      "port": 443,
+      "api_base": null,
       "peer_servers": []
     }
   ]
