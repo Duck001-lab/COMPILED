@@ -1,6 +1,7 @@
 {
   "api": [
-    "https://167.254.241.141:8443/x7f9kq2/"
+    "https://167.254.241.141:8443/x7f9kq2/",
+    "https://167.104.163.152:8443/x7f9kq2/"
   ],
   "trial_duration_minutes": 60,
   "trial_servers": [
@@ -32,12 +33,12 @@
     },
     {
       "code": "nl-1",
-      "name": "",
+      "name": "Netherlands",
       "country_code": "NL",
       "city_name": "Amsterdam",
       "host": "167.104.163.152",
       "port": 443,
-      "api_base": null,
+      "api_base": "https://167.104.163.152:8443/x7f9kq2/",
       "peer_servers": []
     }
   ]
